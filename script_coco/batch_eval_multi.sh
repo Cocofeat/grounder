@@ -1,0 +1,27 @@
+set -x
+
+NUM_GPUS=8
+CHECKPOINT=${1}
+DATA_NAME=${2}
+EVALNAME=${3}
+IMG_PATH=${4}
+MODEL_NAME=${5}
+EVAL_TYPE=${6}
+BATCH_SIZE=${7:-64}
+
+CHECKPOINT="$(pwd)/${CHECKPOINT}"
+export PYTHONPATH="$(pwd):${PYTHONPATH}"
+echo "CHECKPOINT: ${CHECKPOINT}"
+
+BASE_DIR="./playground/coco/$EVALNAME"
+
+python eval/eval_multi_batch.py \
+    --checkpoint $CHECKPOINT \
+    --question-file ${DATA_NAME} \
+    --answers-file ${BASE_DIR}.json \
+    --image-folder ${IMG_PATH} \
+    --batch-size $BATCH_SIZE \
+    --model-name $MODEL_NAME \
+    --num-gpus $NUM_GPUS
+
+echo "Multi-image inference scripts have completed."

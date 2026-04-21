@@ -1,0 +1,46 @@
+[
+  {
+    "question_id": "demo_single_00_202503130398",
+    "image": "202503130398/AP/images/55.png",
+    "text": "The image above corresponds to: Arterial Phase (AP)\nQuestion: Does this patient have a focal liver lesion? A. There are a focal lesion or multipul focal lesions; B. No focal lesions are present",
+    "label": "A. There are a focal lesion or multipul focal lesions",
+    "category": "conv",
+    "modality": "AP",
+    "type": "QA",
+    "Question_type": "QA1",
+    "patient_label": "HCC"
+  },
+  {
+    "question_id": "demo_single_01_202205160536",
+    "image": "202205160536/AP/images/3.png",
+    "text": "The image above corresponds to: Arterial Phase (AP)\nQuestion: Does this patient have a focal liver lesion? A. There are a focal lesion or multipul focal lesions; B. No focal lesions are present",
+    "label": "B. No focal lesions are present",
+    "category": "conv",
+    "modality": "AP",
+    "type": "QA",
+    "Question_type": "QA1",
+    "patient_label": "Normal"
+  },
+  {
+    "question_id": "demo_single_02_201802090104",
+    "image": "201802090104/AP/images/22.png",
+    "text": "The image above corresponds to: Arterial Phase (AP)\nQuestion: Does this patient have a focal liver lesion? A. There are a focal lesion or multipul focal lesions; B. No focal lesions are present;",
+    "label": "A. There are a focal lesion or multipul focal lesions",
+    "category": "conv",
+    "modality": "AP",
+    "type": "QA",
+    "Question_type": "QA1",
+    "patient_label": "ICC"
+  },
+  {
+    "question_id": "demo_single_03_202506160127",
+    "image": "202506160127/AP/images/2.png",
+    "text": "The image above corresponds to: Arterial Phase (AP)\nQuestion: Does this patient have a focal liver lesion? A. There are a focal lesion or multipul focal lesions; B. No focal lesions are present",
+    "label": "A. There are a focal lesion or multipul focal lesions",
+    "category": "conv",
+    "modality": "AP",
+    "type": "QA",
+    "Question_type": "QA1",
+    "patient_label": "Benign"
+  }
+]

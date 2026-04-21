@@ -1,0 +1,86 @@
+{
+    "coco_qa": {
+        "root": "/mnt/data/by/data/coco_new/data",
+        "annotation": "/mnt/data/by/data/coco_new/labels_2025_11_29/train/train_QA_EN_balanced.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 65707
+    },
+    "coco_qa_with_bbox": {
+        "root": "/mnt/data/by/data/coco_new/data",
+        "annotation": "/mnt/data/by/data/coco_new/labels_2025_11_29/train/train_QA_EN_with_bbox.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 65707
+    },
+    "coco_qa_icc": {
+        "root": "/mnt/data/by/data/coco_new/data",
+        "annotation": "/mnt/data/by/data/coco_new/labels_2025_11_29/train/train_QA_EN_ICC.jsonl",
+        "data_augment": false,
+        "repeat_time": 5,
+        "length": 1379
+    },
+    "coco_qa_normal": {
+        "root": "/mnt/data/by/data/coco_new/data",
+        "annotation": "/mnt/data/by/data/coco_new/labels_2025_11_29/train/train_QA_EN_Normal.jsonl",
+        "data_augment": false,
+        "repeat_time": 5,
+        "length": 1200
+    },
+    "coco_qa_small_hcc": {
+        "root": "/mnt/data/by/data/coco_new/data_external_final",
+        "annotation": "/mnt/data/by/data/coco_new/labels_2025_11_29/train/train_QA_EN_small_HCC.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 4549
+    },
+    "coco_qa_small_hcc_with_bbox": {
+        "root": "/mnt/data/by/data/coco_new/data_external_final",
+        "annotation": "/mnt/data/by/data/coco_new/labels_2025_11_29/train/train_QA_EN_small_HCC_with_bbox.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 4549
+    },
+    "coco_report": {
+        "root": "/mnt/data/by/data/coco_new/data",
+        "annotation": "/mnt/data/by/data/coco_new/labels_2025_11_29/train/train_report_generation_EN.jsonl",
+        "data_augment": false,
+        "repeat_time": 4,
+        "length": 18552
+    },
+    "coco_report_with_bbox": {
+        "root": "/mnt/data/by/data/coco_new/data",
+        "annotation": "/mnt/data/by/data/coco_new/labels_2025_11_29/train/train_report_generation_EN_with_bbox.jsonl",
+        "data_augment": false,
+        "repeat_time": 2,
+        "length": 18552
+    },
+    "coco_report_small_hcc": {
+        "root": "/mnt/data/by/data/coco_new/data_external_final",
+        "annotation": "/mnt/data/by/data/coco_new/labels_2025_11_29/train/train_report_generation_EN_small_HCC.jsonl",
+        "data_augment": false,
+        "repeat_time": 2,
+        "length": 1287
+    },
+    "coco_vg": {
+        "root": "/mnt/data/by/data/coco_new/data",
+        "annotation": "/mnt/data/by/data/coco_new/labels_2025_11_29/train/train_bbox_v2.jsonl",
+        "data_augment": false,
+        "repeat_time": 2,
+        "length": 10049
+    },
+    "coco_vg_0": {
+        "root": "/mnt/data/by/data/coco_new/data",
+        "annotation": "/mnt/data/by/data/coco_new/labels_2025_11_29/train/train_bbox_0_v2.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 6713
+    },
+    "coco_vg_small_hcc": {
+        "root": "/mnt/data/by/data/coco_new",
+        "annotation": "/mnt/data/by/data/coco_new/labels_2025_11_29/train/train_bbox_small_HCC.jsonl",
+        "data_augment": false,
+        "repeat_time": 5,
+        "length": 1287
+    }
+}

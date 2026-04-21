@@ -1,0 +1,128 @@
+{
+    "coco_qa_multi_3": {
+        "root": "/mnt/data/by/data/coco_new/data",
+        "annotation": "/mnt/data/by/data/coco_new/labels_2025_11_29/multimodal_train/train_QA_EN_multimodal_3mod.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 39591
+    },
+    "coco_qa_multi_3_with_bbox": {
+        "root": "/mnt/data/by/data/coco_new/data",
+        "annotation": "/mnt/data/by/data/coco_new/labels_2025_11_29/multimodal_train/train_QA_EN_multimodal_3mod_with_bbox.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 39591
+    },
+    "coco_qa_multi_4": {
+        "root": "/mnt/data/by/data/coco_new/data",
+        "annotation": "/mnt/data/by/data/coco_new/labels_2025_11_29/multimodal_train/train_QA_EN_multimodal_4mod.jsonl",
+        "data_augment": false,
+        "repeat_time": 6,
+        "length": 14992
+    },
+    "coco_qa_multi_4_with_bbox": {
+        "root": "/mnt/data/by/data/coco_new/data",
+        "annotation": "/mnt/data/by/data/coco_new/labels_2025_11_29/multimodal_train/train_QA_EN_multimodal_4mod_with_bbox.jsonl",
+        "data_augment": false,
+        "repeat_time": 4,
+        "length": 14992
+    },
+    "coco_qa_sh_multi_3": {
+        "root": "/mnt/data/by/data/coco_new/data_external_final_pre",
+        "annotation": "/mnt/data/by/data/coco_new/labels_2025_11_29/multimodal_train/train_QA_EN_small_HCC_multimodal_3mod.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 4140
+    },
+    "coco_qa_sh_multi_3_with_bbox": {
+        "root": "/mnt/data/by/data/coco_new/data_external_final_pre",
+        "annotation": "/mnt/data/by/data/coco_new/labels_2025_11_29/multimodal_train/train_QA_EN_small_HCC_multimodal_3mod_with_bbox.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 4140
+    },
+    "coco_qa_sh_multi_4": {
+        "root": "/mnt/data/by/data/coco_new/data_external_final_pre",
+        "annotation": "/mnt/data/by/data/coco_new/labels_2025_11_29/multimodal_train/train_QA_EN_small_HCC_multimodal_4mod.jsonl",
+        "data_augment": false,
+        "repeat_time": 8,
+        "length": 1576
+    },
+    "coco_qa_sh_multi_4_with_bbox": {
+        "root": "/mnt/data/by/data/coco_new/data_external_final_pre",
+        "annotation": "/mnt/data/by/data/coco_new/labels_2025_11_29/multimodal_train/train_QA_EN_small_HCC_multimodal_4mod_with_bbox.jsonl",
+        "data_augment": false,
+        "repeat_time": 4,
+        "length": 1576
+    },
+    "coco_qa_icc_multi_4": {
+        "root": "/mnt/data/by/data/coco_new/data",
+        "annotation": "/mnt/data/by/data/coco_new/labels_2025_11_29/multimodal_train/train_QA_EN_ICC_multimodal_4mod.jsonl",
+        "data_augment": false,
+        "repeat_time": 8,
+        "length": 352
+    },
+    "coco_qa_icc_multi_4_with_bbox": {
+        "root": "/mnt/data/by/data/coco_new/data",
+        "annotation": "/mnt/data/by/data/coco_new/labels_2025_11_29/multimodal_train/train_QA_EN_ICC_multimodal_4mod_with_bbox.jsonl",
+        "data_augment": false,
+        "repeat_time": 8,
+        "length": 352
+    },
+    "coco_qa_normal_multi_4": {
+        "root": "/mnt/data/by/data/coco_new/data",
+        "annotation": "/mnt/data/by/data/coco_new/labels_2025_11_29/multimodal_train/train_QA_EN_Normal_multimodal_4mod.jsonl",
+        "data_augment": false,
+        "repeat_time": 8,
+        "length": 120
+    },
+    "coco_qa_normal_multi_4_with_bbox": {
+        "root": "/mnt/data/by/data/coco_new/data",
+        "annotation": "/mnt/data/by/data/coco_new/labels_2025_11_29/multimodal_train/train_QA_EN_Normal_multimodal_4mod_with_bbox.jsonl",
+        "data_augment": false,
+        "repeat_time": 8,
+        "length": 120
+    },
+    "coco_report_multi_4": {
+        "root": "/mnt/data/by/data/coco_new/data",
+        "annotation": "/mnt/data/by/data/coco_new/labels_2025_11_29/multimodal_train/train_report_generation_EN_multimodal_4mod.jsonl",
+        "data_augment": false,
+        "repeat_time": 8,
+        "length": 3748
+    },
+    "coco_report_multi_4_with_bbox": {
+        "root": "/mnt/data/by/data/coco_new/data",
+        "annotation": "/mnt/data/by/data/coco_new/labels_2025_11_29/multimodal_train/train_report_generation_EN_multimodal_4mod_with_bbox.jsonl",
+        "data_augment": false,
+        "repeat_time": 8,
+        "length": 3748
+    },
+    "coco_report_sh_multi_4": {
+        "root": "/mnt/data/by/data/coco_new/data_external_final_pre",
+        "annotation": "/mnt/data/by/data/coco_new/labels_2025_11_29/multimodal_train/train_report_generation_EN_small_HCC_multimodal_4mod.jsonl",
+        "data_augment": false,
+        "repeat_time": 4,
+        "length": 396
+    },
+    "coco_report_sh_multi_4_with_bbox": {
+        "root": "/mnt/data/by/data/coco_new/data_external_final_pre",
+        "annotation": "/mnt/data/by/data/coco_new/labels_2025_11_29/multimodal_train/train_report_generation_EN_small_HCC_multimodal_4mod_with_bbox.jsonl",
+        "data_augment": false,
+        "repeat_time": 4,
+        "length": 396
+    },
+    "coco_grounding_multi_4": {
+        "root": "/mnt/data/by/data/coco_new/data",
+        "annotation": "/mnt/data/by/data/coco_new/labels_2025_11_29/multimodal_train/train_grounding_EN_multimodal_4mod.jsonl",
+        "data_augment": false,
+        "repeat_time": 8,
+        "length": 3748
+    },
+    "coco_grounding_sh_multi_4": {
+        "root": "/mnt/data/by/data/coco_new/data_external_final_pre",
+        "annotation": "/mnt/data/by/data/coco_new/labels_2025_11_29/multimodal_train/train_grounding_EN_small_HCC_multimodal_4mod.jsonl",
+        "data_augment": false,
+        "repeat_time": 15,
+        "length": 396
+    }
+}

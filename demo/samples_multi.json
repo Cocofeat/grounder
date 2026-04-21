@@ -1,0 +1,98 @@
+[
+  {
+    "question_id": "demo_multi_00_202503130398",
+    "image": [
+      "202503130398/PRE/images/58.png",
+      "202503130398/AP/images/55.png",
+      "202503130398/PVP/images/47.png",
+      "202503130398/T2WI/images/26.png"
+    ],
+    "text": "<image>\n<image>\n<image>\n<image>\nThe four images above correspond to:\n1) CT pre-contrast (PRE)\n2) CT arterial phase (AP)\n3) CT portal venous phase (PVP)\n4) MRI T2-weighted (T2WI)\n\nDetected lesions (if any) with bounding boxes:\nPVP: <box>[[268, 537, 422, 670]]</box>\nQuestion: Does this patient have a focal liver lesion? A. There are a focal lesion or multipul focal lesions; B. No focal lesions are present",
+    "label": "A. There are a focal lesion or multipul focal lesions",
+    "category": "conv",
+    "modalities": [
+      "PRE",
+      "AP",
+      "PVP",
+      "T2WI"
+    ],
+    "num_modalities": 4,
+    "type": "QA",
+    "Question_type": "QA1",
+    "patient_label": "HCC",
+    "bbox_modality": "AP",
+    "sample_id": 0
+  },
+  {
+    "question_id": "demo_multi_01_202205160536",
+    "image": [
+      "202205160536/PRE/images/13.png",
+      "202205160536/AP/images/3.png",
+      "202205160536/PVP/images/3.png",
+      "202205160536/T2WI/images/4.png"
+    ],
+    "text": "<image>\n<image>\n<image>\n<image>\nThe four images above correspond to:\n1) CT pre-contrast (PRE)\n2) CT arterial phase (AP)\n3) CT portal venous phase (PVP)\n4) MRI T2-weighted (T2WI)\nDetected lesions (if any) with bounding boxes:\nPVP: <box>[[0, 0, 0, 0]]</box>\n\nNo lesion detected <box>[[0, 0, 0, 0]]</box> for AP. Question: Does this patient have a focal liver lesion? A. There are a focal lesion or multipul focal lesions; B. No focal lesions are present",
+    "label": "B. No focal lesions are present",
+    "category": "conv",
+    "modalities": [
+      "PRE",
+      "AP",
+      "PVP",
+      "T2WI"
+    ],
+    "num_modalities": 4,
+    "type": "QA",
+    "Question_type": "QA1",
+    "patient_label": "Normal",
+    "bbox_modality": "AP",
+    "sample_id": 1
+  },
+  {
+    "question_id": "demo_multi_02_201802090104",
+    "image": [
+      "201802090104/PRE/images/21.png",
+      "201802090104/AP/images/22.png",
+      "201802090104/PVP/images/21.png",
+      "201802090104/T2WI/images/12.png"
+    ],
+    "text": "<image>\n<image>\n<image>\n<image>\nThe four images above correspond to:\n1) CT pre-contrast (PRE)\n2) CT arterial phase (AP)\n3) CT portal venous phase (PVP)\n4) MRI T2-weighted (T2WI)\n\nDetected lesions (if any) with bounding boxes:\nPVP: <box>[[281, 258, 328, 329]]</box>\nQuestion: Does this patient have a focal liver lesion? A. There are a focal lesion or multipul focal lesions; B. No focal lesions are present;",
+    "label": "A. There are a focal lesion or multipul focal lesions",
+    "category": "conv",
+    "modalities": [
+      "PRE",
+      "AP",
+      "PVP",
+      "T2WI"
+    ],
+    "num_modalities": 4,
+    "type": "QA",
+    "Question_type": "QA1",
+    "patient_label": "ICC",
+    "bbox_modality": "AP",
+    "sample_id": 2
+  },
+  {
+    "question_id": "demo_multi_03_202506160127",
+    "image": [
+      "202506160127/PRE/images/1.png",
+      "202506160127/AP/images/2.png",
+      "202506160127/PVP/images/14.png",
+      "202506160127/T2WI/images/3.png"
+    ],
+    "text": "<image>\n<image>\n<image>\n<image>\nThe four images above correspond to:\n1) CT pre-contrast (PRE)\n2) CT arterial phase (AP)\n3) CT portal venous phase (PVP)\n4) MRI T2-weighted (T2WI)\nDetected lesions (if any) with bounding boxes:\nPVP: <box>[[0, 0, 0, 0]]</box>\n\nNo lesion detected <box>[[0, 0, 0, 0]]</box> for AP. Question: Does this patient have a focal liver lesion? A. There are a focal lesion or multipul focal lesions; B. No focal lesions are present",
+    "label": "A. There are a focal lesion or multipul focal lesions",
+    "category": "conv",
+    "modalities": [
+      "PRE",
+      "AP",
+      "PVP",
+      "T2WI"
+    ],
+    "num_modalities": 4,
+    "type": "QA",
+    "Question_type": "QA1",
+    "patient_label": "Benign",
+    "bbox_modality": "AP",
+    "sample_id": 3
+  }
+]

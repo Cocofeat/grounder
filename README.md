@@ -1,6 +1,7 @@
 # LiverGrounder
 
-Code release for **LiverGrounder**, a liver lesion multi-modal vision-language model.
+Code release for **LiverGrounder**, a clinically grounded artificial intelligence system designed to support multimodal MRI-based assessment of primary liver tumours.
+
 
 - **Stage 1** — single-modality fine-tune across CT phases (PRE / AP / PVP) and MRI T2WI.
 - **Stage 2** — multi-modality inference with a lightweight per-modality gate that re-weights each phase's contribution before the language model.
